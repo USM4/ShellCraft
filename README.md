@@ -1,5 +1,4 @@
-# mshell
-# Simple Shell
+# ShellCraft
 
 ## Overview
 This project is a **simple shell** implemented in **C**, designed to execute commands similar to a Unix shell. It supports basic command execution, argument parsing, and process handling.
