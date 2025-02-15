@@ -17,18 +17,18 @@ This project is a **simple shell** implemented in **C**, designed to execute com
 ## Installation
 Clone the repository:
 ```sh
-git clone https://github.com/your-username/simple_shell.git
-cd simple_shell
+git clone https://github.com/USM4/ShellCraft.git
+cd Shellraft
 ```
 
-## Compilation
+## Compilation (if you are using the macOs)
 Use the provided **Makefile** to compile the project:
 ```sh
 make
 ```
 This generates an executable named **shell**.
 
-## Usage
+## Compilation (if you are using any os)
 All you need is docker and run this:
 ```sh
 docker build -t minishell .
