@@ -1,6 +1,6 @@
 # ShellCraft
 
-## Overview
+## Overview (ALL YOU NEED TO RUN IT IS TO HAVE DOCKER IN YOUR MACHINE)
 This project is a **simple shell** implemented in **C**, designed to execute commands similar to a Unix shell. It supports basic command execution, argument parsing, and process handling.
 
 ## Features
@@ -29,15 +29,16 @@ make
 This generates an executable named **shell**.
 
 ## Usage
-Run the shell with:
+All you need is docker and run this:
 ```sh
-./minishell
+docker build -t minishell .
+docker run -it minishell
 ```
 You will see a prompt where you can type commands:
 ```
-$ ls -l
-$ echo "Hello, World!"
-$ exit
+➜ minishell$ ls -l
+➜ minishell$ echo "Hello, World!"
+➜ minishell$ exit
 ```
 
 ## Makefile Commands
@@ -52,8 +53,8 @@ $ exit
 $ ./minishell
 minishell$ ls
 file1.c  file2.c  shell  Makefile  README.md
-minishell$ echo "Custom Shell in C"
-Custom Shell in C
+minishell$ echo "ShellCraft in C"
+ShellCraft in C
 minishell$ exit
 ```
 
